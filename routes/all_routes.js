@@ -18,6 +18,6 @@ router.post('/get_polling_stations_by_district', pollingStationsWinnersByDistric
 router.post('/getParliamentaryPresidentialPercentagesByParty', getParliamentaryPresidentialPercentagesByParty)
 router.post('/get_turnout_trend', getPresidentialVoterTurnoutTrend)
 
-router.get('/get_any', getAny)
+router.get('/', getAny)
 
 export default router;
