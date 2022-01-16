@@ -1,1 +1,1 @@
-## Simple express backend
+## Simple express backend to serve election data
